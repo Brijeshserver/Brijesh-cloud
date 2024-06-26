@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #1A2130;
+    padding: 20px;
+}
+
+h1 {
+    color: #5A72A0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #1A2130;
+    margin: 10px 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    color: #FDFFE2;
+    position: relative;
+}
+
+li::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #5A72A0;
+    position: absolute;
+    bottom: 0;
+    left: 35px; /* Adjust to start the underline from the text */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #5A72A0;
+}
